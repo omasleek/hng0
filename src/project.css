@@ -1,0 +1,230 @@
+:root {
+    --primary-color: #3d3e42;
+    --secondary-color: rgb(255, 255, 255);
+    --text-font: "Raleway", sans-serif;
+    --primary-text-font: "Satisfy", cursive;
+    --text-color: rgba(37, 37, 39, 0.806);
+    --preprimary-color: rgb(218,165,32);
+  }
+  
+  
+  
+  body {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  ul,
+  p,
+  .btn-main,
+  .coding-btn-project {
+    font-family: var(--text-font);
+    font-weight: 400;
+  }
+  
+  .index-body {
+    background-color: var(--preprimary-color);
+    color: var(--secondary-color);
+  }
+  header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  nav {
+    padding: 15px;
+  }
+  nav h3 {
+    font-size: 22px;
+  }
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    list-style: none;
+    margin-left: 12px;
+  }
+  nav a,
+  footer a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    transition: all 150ms ease-in-out;
+  }
+  
+  ul a:hover {
+    text-decoration: underline;
+  }
+  
+  .top-section {
+    background-color: var(--primary-color);
+    padding: 50px;
+    text-align: center;
+  }
+  .top-section h1 {
+    color: var(--secondary-color);
+    font-size: 66px;
+  }
+  main {
+    margin: 30px 0 100px 0;
+  }
+  
+  .hero {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    max-width: 100%;
+    padding: 120px 60px;
+  }
+  .hero h1 {
+    font-size: 70px;
+    margin: 40px 0 20px 0;
+    color: var(--preprimary-color);
+  }
+  
+  .hero h2 {
+    font-size: 30px;
+  }
+  
+  a {
+    margin: 20px 0;
+  }
+  
+  .btn-main {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 15px;
+    border-radius: 4px;
+    border: 2px solid var(--preprimary-color);
+    margin-top: 60px;
+    transition: all 150ms ease-in-out;
+  }
+  
+  .btn-main:hover {
+    border: 1px solid var(--secondary-color);
+    color: var(--preprimary-color);
+  }
+  
+  .about-container h2 {
+    font-size: 28px;
+    line-height: 60px;
+  }
+  
+  .about-container p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  
+  .shecodes-link {
+    color: rgba(37, 37, 39, 0.623);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .shecodes-link:hover {
+    text-decoration: underline;
+  }
+  
+  .img-container {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px solid var(--preprimary-color);
+  }
+  .coding-container {
+    margin-top: 100px;
+  }
+  .coding-container h2 {
+    font-size: 25px;
+  }
+  
+  .coding-btn-project {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 16px 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: all 150ms ease-in-out;
+  }
+  
+  .coding-btn-project:hover {
+    border: solid 2px var(--preprimary-color);
+  }
+  
+  .contact-container {
+    padding: 40px 0;
+  }
+  .contact-container a {
+    text-decoration: none;
+    color: var(--text-font);
+  }
+  i {
+    font-size: 50px;
+    color: var(--preprimary-color);
+  }
+  footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 40px;
+  }
+  footer a {
+    text-decoration: underline;
+  }
+  
+  .social-links i {
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 4px;
+    margin: 15px 10px;
+    transition: all 150ms ease-in-out;
+  }
+  
+  .social-links i:hover {
+    background-color: var(--preprimary-color);
+    color: var(--primary-color);
+  }
+  footer p {
+    font-size: 15px;
+  }
+  @media (max-width: 992px) {
+    .about-container {
+      text-align: center;
+    }
+    .about-container h2 {
+      margin: none;
+    }
+    .img-container {
+      display: block;
+      margin-top: 30px;
+      text-align: center;
+      
+    }
+  }
+  @media (max-width: 767px) {
+    .coding-container h1 {
+      font-size: 60px;
+    }
+    .coding-container h2 {
+      font-size: 32px;
+    }
+    .coding-btn-project {
+      display: block;
+      text-align: center;
+    }
+    .coding-image-spacing {
+      margin-top: 50px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    ul {
+      font-size: 12px;
+      
+    }
+    .top-section h1 {
+      font-size: 45px;
+    }
+  }
